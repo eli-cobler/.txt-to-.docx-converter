@@ -5,11 +5,7 @@
 from docx import Document
 import os
 
-<<<<<<< HEAD
 text_file = input("Please provide path pointing to your textfile: ")
-=======
-text_file = "your_text_file_path.txt"
->>>>>>> 7ebc59d74f146640ac898cb0eb7dbcfdb04a22c2
 
 # opens document to add text to
 document = Document()
