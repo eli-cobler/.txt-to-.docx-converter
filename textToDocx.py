@@ -1,7 +1,11 @@
+# This file takes a text file provided by the user
+# And converts it to a .docx file allowing the user 
+# open in word easily. 
+
 from docx import Document
 import os
 
-text_file = "/Users/elicobler/tiny_dancer/BackEnd/TextFiles/12.18.18 - Monday - Hr 2 - Seg 1.txt"
+text_file = input("Please provide path pointing to your textfile: ")
 
 #opens document to add text to
 document = Document()
